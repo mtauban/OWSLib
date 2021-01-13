@@ -400,7 +400,7 @@ def http_post(url=None, request=None, lang='en-US', timeout=10, username=None, p
     u = urlsplit(url)
 
     headers = {
-        'User-Agent': 'OWSLib (https://geopython.github.io/OWSLib)',
+        'User-Agent': 'parcelle-recs',
         'Content-type': 'text/xml',
         'Accept': 'text/xml',
         'Accept-Language': lang,
